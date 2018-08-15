@@ -37,7 +37,11 @@ sum= add2(num1, num2)
 print(sum)
 # 5. Function subtract
 # Create a function that will take two parameters named num1 and num2. This function will subtract two numbers. Print your result.
-
+def subtract2(num1, num2):
+    return num1 - num2
+subtract2(num1, num2)
+difference= subtract2(num1, num2)
+print(difference)
 # 6. Function add-then-subtract
 # Create a function that will take in three parameters named num1, num2 and num3. The function will sum up the first two parameters (num1 and num2) and subtract it from the third parameter (num3). Please use your previous functions (i.e. add or subtract) for this exercise. Print your result.
 
