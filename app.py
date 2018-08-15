@@ -44,7 +44,12 @@ difference= subtract2(num1, num2)
 print(difference)
 # 6. Function add-then-subtract
 # Create a function that will take in three parameters named num1, num2 and num3. The function will sum up the first two parameters (num1 and num2) and subtract it from the third parameter (num3). Please use your previous functions (i.e. add or subtract) for this exercise. Print your result.
-
+num3= 10567
+def total2(num1, num2, num3):
+    return num1 - (num2 + num3)
+total2(num3, num1, num2)
+overall_total= total2(num3, num1, num2)
+print(overall_total)
 # 7. Function shoe size
 #  Create a function that will take in a parameter named inches. This function will convert inches to centimeters(cm). Print your result. 
 
