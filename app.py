@@ -9,6 +9,15 @@ print('$' + str(total))
 
 
 # 2.You need to pay taxes on the $500 cash prize that you won to the IRS ( The tax rate is 30%). Calculate the tax amount and subtract this from your savings balance. Print the updated savings account balance and concatenate the dollar sign.
+tax= 500
+rate= (500 * 0.30)
+
+def subtract(num1, num2):
+    return num1 - num2
+subtract(total, rate)
+taxed_total= subtract(total, rate)
+print('$' + str(taxed_total))
+
 # 3. The savings account accrues an annual interest rate of 2%. Calculate the interest earned for the first quarter of 2018, using the original account balance from Question 1. Print the interst earned in the first quarter and concatenate the dollar sign.
 
 # 4. Function add
