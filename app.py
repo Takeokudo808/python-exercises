@@ -19,7 +19,13 @@ taxed_total= subtract(total, rate)
 print('$' + str(taxed_total))
 
 # 3. The savings account accrues an annual interest rate of 2%. Calculate the interest earned for the first quarter of 2018, using the original account balance from Question 1. Print the interst earned in the first quarter and concatenate the dollar sign.
-
+interest= 0.02
+def multiply(num1, num2):
+    return num1 * num2
+multiply(balance, interest)
+interest_rate= multiply(balance, interest)
+interest_balance= (balance + (interest_rate))
+print('$' + str(interest_balance))
 # 4. Function add
 # Create a function that will take two parameters named num1 and num2. This function will add two numbers. Print your result.
 
