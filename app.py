@@ -52,7 +52,12 @@ overall_total= total2(num3, num1, num2)
 print(overall_total)
 # 7. Function shoe size
 #  Create a function that will take in a parameter named inches. This function will convert inches to centimeters(cm). Print your result. 
+def in_to_cm(inches):
+    CM_PER_INCH= 2.54
+    cm = inches * CM_PER_INCH
+    return cm
 
+print(str(in_to_cm(5)))
 # 8. Create a function that will take in a parameter named cel. The function will convert Celsius into Fahrenheit. Print your result.
 
 # 9. Function all caps
