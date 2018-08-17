@@ -66,7 +66,10 @@ print(cel_to_fahr(20))
     
 # 9. Function all caps
 #  Create a function that will take in a parameter named str. This function will capitalize all the letters in the string. Print your result. 
+def capitalize(str):
+    return str.upper()
 
+print(capitalize("jeremy"))
 # 10. Function one cap
 #  Create a function that will take in a parameter named str. The function will capitalize only the first letter in the string. Print your result.
 
