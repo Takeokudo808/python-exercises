@@ -81,6 +81,8 @@ print(proper_capitalize('Takeo'))
 east_side = ['Biggie', 'Nas', 'Wu-Tang Clan']
 west_side = ['Tupac', 'Dre', 'Snoop']
 
+east_side.extend(west_side)
+print(east_side)
 # 12. Use the clear method to remove all items from the following list. If you are using Python 2 or 3.2, use the del operator instead. Print your result.
 
 haters = ['Keyshia Cole', 'Wendy Williams', '50 Cent', 'Lil Kim']
