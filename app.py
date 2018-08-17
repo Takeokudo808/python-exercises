@@ -72,7 +72,10 @@ def capitalize(str):
 print(capitalize("jeremy"))
 # 10. Function one cap
 #  Create a function that will take in a parameter named str. The function will capitalize only the first letter in the string. Print your result.
+def proper_capitalize(str):
+    return str.title()
 
+print(proper_capitalize('Takeo'))
 # 11. Use the extend method to combine the following lists together. Print your result.
 
 east_side = ['Biggie', 'Nas', 'Wu-Tang Clan']
