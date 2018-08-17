@@ -87,7 +87,8 @@ print(east_side)
 
 haters = ['Keyshia Cole', 'Wendy Williams', '50 Cent', 'Lil Kim']
 
-
+haters.clear()
+print(haters)
 
 
 
