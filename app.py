@@ -59,7 +59,11 @@ def in_to_cm(inches):
 
 print(str(in_to_cm(5)))
 # 8. Create a function that will take in a parameter named cel. The function will convert Celsius into Fahrenheit. Print your result.
+def cel_to_fahr(cel):
+    return cel * (9/5) + 32
 
+print(cel_to_fahr(20))
+    
 # 9. Function all caps
 #  Create a function that will take in a parameter named str. This function will capitalize all the letters in the string. Print your result. 
 
